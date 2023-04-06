@@ -3,7 +3,7 @@
     "title": "Narrative Dojo",
     "image": "./projectImages/narrative-dojo.png",
     "description": "A React/FastAPI app that implements DALL-E 2 API for creation of custom storybooks with user-friendly interface. Utilizes SQL to create database tables and implemented a robust data storage system.",
-    "technologies": "React | FastAPI | Bootstrap | Python | Javascript | PostgreSQL",
+    "technologies": "React | FastAPI | Python | Javascript | PostgreSQL",
     "github": "https://gitlab.com/narrative-ninjas/module3-project-gamma",
     "deployed": "https://narrative-ninjas.gitlab.io/module3-project-gamma/",
     "bgcolor": "#f37737",
@@ -12,7 +12,7 @@
   {
     "title": "CarCar",
     "image": "./projectImages/carcar.png",
-    "technologies": "React | Django | Bootstrap | Python | Javascript | PostgreSQL",
+    "technologies": "React | Django | Python | Javascript | PostgreSQL",
     "description": " An all-encompassing single-page automobile dealership management application that prioritizes user experience and functionality.",
     "github": "https://gitlab.com/jamesyi803/carcar",
     "deployed": "",
