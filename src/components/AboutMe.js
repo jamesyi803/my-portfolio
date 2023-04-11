@@ -84,7 +84,7 @@ const AboutMe = ({ name, email, location, availability, brand, skills }) => {
               {/* <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Downloading..." : "Download Resume"}
               </button>{" "} */}
-              <a className="btn downloadCV" href={resume} target="_blank" rel="noreferrer">View resume</a>
+              <a className="btn downloadCV" href={resume} target="_blank" rel="noreferrer" >View resume</a>
               <SocialIcons />
             </div>
           </div>
