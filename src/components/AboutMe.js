@@ -17,18 +17,18 @@ const AboutMe = ({ name, email, location, availability, brand, skills }) => {
     setDownloading(false);
   }, [downloading]);
 
-  const handleDownload = () => {
-    setDownloading(true);
-    const link = document.createElement("a");
-    link.href = resume;
-    link.download = "James-Yi-Resume.pdf";
-    link.onload = () => {
-      link.remove();
-      setDownloading(false);
-    };
-    document.body.appendChild(link);
-    link.click();
-  };
+  // const handleDownload = () => {
+  //   setDownloading(true);
+  //   const link = document.createElement("a");
+  //   link.href = resume;
+  //   link.download = "James-Yi-Resume.pdf";
+  //   link.onload = () => {
+  //     link.remove();
+  //     setDownloading(false);
+  //   };
+  //   document.body.appendChild(link);
+  //   link.click();
+  // };
 
   return (
     <div className="aboutContainer container">
@@ -81,9 +81,10 @@ const AboutMe = ({ name, email, location, availability, brand, skills }) => {
               </div>
             </div>
             <div className="buttonContainer">
-              <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
+              {/* <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "}
+              </button>{" "} */}
+              <a className="btn downloadCV" href={resume} target="_blank" rel="noreferrer">View resume</a>
               <SocialIcons />
             </div>
           </div>
